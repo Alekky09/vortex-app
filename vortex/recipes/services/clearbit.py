@@ -1,6 +1,7 @@
 import requests
 from django.conf import settings
 
+
 class ClearbitClient:
     base_url = 'https://person.clearbit.com/v2/combined/find'
 

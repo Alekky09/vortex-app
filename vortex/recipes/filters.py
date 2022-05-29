@@ -1,5 +1,5 @@
 from rest_framework import filters
-from django.db.models import Count, Max, Min, F
+from django.db.models import Count, Max, Min
 
 
 class MinMaxFilterBackend(filters.BaseFilterBackend):

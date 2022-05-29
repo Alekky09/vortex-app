@@ -1,6 +1,7 @@
 import requests
 from django.conf import settings
 
+
 class HunterClient:
     base_url = 'https://api.hunter.io/v2/email-verifier'
 
